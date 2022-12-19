@@ -2,13 +2,13 @@
 
 //Shoes
 
-/obj/item/clothing/shoes/magboots/Initialize()
+/obj/item/clothing/shoes/Initialize()
 	. = ..()
 	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_feet_resomi.dmi')
 
-/obj/item/clothing/shoes/galoshes/Initialize()
-	. = ..()
-	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_feet_resomi.dmi')
+///obj/item/clothing/shoes/galoshes/Initialize()
+//	. = ..()
+//	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_feet_resomi.dmi')
 
 //Gloves
 
@@ -18,26 +18,56 @@
 
 //Backpacks & tanks
 
-/obj/item/storage/backpack/satchel/Initialize()
-	. = ..()
-	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_back_resomi.dmi')
+///obj/item/storage/backpack/satchel/Initialize()
+//	. = ..()
+//	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_back_resomi.dmi')
 
 //Radsuits (theyre essential?)
 
-/obj/item/clothing/head/radiation/Initialize()
-	. = ..()
-	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_head_resomi.dmi')
+///obj/item/clothing/head/radiation/Initialize()
+//	. = ..()
+//	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_head_resomi.dmi')
 
-/obj/item/clothing/suit/radiation/Initialize()
+///obj/item/clothing/suit/radiation/Initialize()
+//	. = ..()
+//	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_suit_resomi.dmi')
+
+//suit
+/obj/item/clothing/suit/Initialize()
 	. = ..()
 	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_suit_resomi.dmi')
 
+/obj/item/storage/belt/Initialize()
+	. = ..()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_belt_resomi.dmi')
+
+/obj/item/clothing/accessory/Initialize()
+	. = ..()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_accessories_resomi.dmi')
+// back
+/obj/item/storage/backpack/Initialize()
+	. = ..()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_back_resomi.dmi')
+
+// under
+/obj/item/clothing/under/Initialize()
+	. = ..()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_under_resomi.dmi')
 
 //ears
 /obj/item/clothing/ears/Initialize()
 	. = ..()
 	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_ears_resomi.dmi')
 
+//mask
+/obj/item/clothing/mask/Initialize()
+	. = ..()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_mask_resomi.dmi')
+
+//head
+/obj/item/clothing/head/Initialize()
+	. = ..()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_head_resomi.dmi')
 
 //glasses
 /obj/item/clothing/glasses/Initialize()

@@ -942,7 +942,7 @@
 /turf/simulated/floor/tiled,
 /area/command/bsa)
 "ce" = (
-/obj/machinery/shipsensors/weak,
+/obj/machinery/shipsensors,
 /obj/structure/cable/cyan{
 	d1 = 2;
 	d2 = 4;
@@ -29834,7 +29834,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "Zj" = (
-/obj/machinery/shipsensors/weak,
+/obj/machinery/shipsensors,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
