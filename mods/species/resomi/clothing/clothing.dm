@@ -20,7 +20,41 @@
 	LAZYSET(sprite_sheets_obj, SPECIES_RESOMI, 'packs/infinity/icons/obj/clothing/species/resomi/obj_suit_resomi.dmi')
 
 //rig
-// /obj/item/rig/Initialize()
+/obj/item/rig/eva/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/light/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/medical/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/hazard/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/combat/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/merc/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/zero/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/ce/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/industrial/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/hazmat/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/ert/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
+
+/obj/item/rig/command/Initialize()
+	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'packs/infinity/icons/mob/species/resomi/onmob_rig_back_resomi.dmi')
 
 /obj/item/clothing/head/helmet/space/rig/Initialize()
 	. = ..()
