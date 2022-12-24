@@ -8976,7 +8976,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/bed/chair/armchair/black{
+/obj/structure/bed/sofa/m/black{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
@@ -9004,7 +9004,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/bed/chair/armchair/black,
+/obj/structure/bed/sofa/r/black,
 /turf/simulated/floor/wood/walnut,
 /area/bridge/adjutants)
 "apz" = (
@@ -17274,7 +17274,7 @@
 	dir = 1;
 	pixel_y = -29
 	},
-/obj/structure/bed/chair/armchair/black{
+/obj/structure/bed/sofa/m/black{
 	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
@@ -22743,6 +22743,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
+/obj/structure/bed/sofa/l/red,
 /turf/simulated/floor/tiled/dark,
 /area/security/sierra/breakroom)
 "aMk" = (
@@ -22752,6 +22753,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
+/obj/structure/bed/sofa/r/red,
 /turf/simulated/floor/tiled/dark,
 /area/security/sierra/breakroom)
 "aMl" = (
@@ -35542,6 +35544,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/forestarboard)
+"cpF" = (
+/obj/structure/bed/sofa/m/black{
+	dir = 5
+	},
+/turf/simulated/floor/wood/walnut,
+/area/bridge/adjutants)
 "cqL" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4
@@ -35616,6 +35624,14 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
+"cGp" = (
+/obj/item/beartrap{
+	anchored = 1;
+	deployed = 1;
+	icon_state = "beartrap1"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/firstdeck/forestarboard)
 "cKN" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -35651,8 +35667,8 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
 "cXv" = (
-/obj/structure/bed/chair/armchair/black{
-	dir = 4
+/obj/structure/bed/sofa/m/black{
+	dir = 6
 	},
 /turf/simulated/floor/wood/walnut,
 /area/bridge/adjutants)
@@ -36161,7 +36177,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/medical/backstorage)
 "eWy" = (
-/obj/structure/bed/chair/armchair/black{
+/obj/structure/bed/sofa/l/black{
 	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
@@ -47282,7 +47298,7 @@ amN
 akJ
 cXv
 apu
-cXv
+cpF
 akJ
 aKz
 aKz
@@ -54340,7 +54356,7 @@ aaA
 aaA
 acS
 adD
-amM
+cGp
 afi
 agj
 abs
