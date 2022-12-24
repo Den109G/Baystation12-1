@@ -8451,6 +8451,11 @@
 /obj/machinery/computer/cryopod/robot{
 	pixel_y = 30
 	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
 /turf/simulated/floor/plating,
 /area/turret_protected/ai_cyborg_station)
 "aoO" = (
